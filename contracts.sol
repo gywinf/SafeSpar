@@ -711,8 +711,8 @@ contract SafeMoon is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "SafeMoon";
-    string private _symbol = "SAFEMOON";
+    string private _name = "SafeSpar";
+    string private _symbol = "SAFESPAR";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
